@@ -27,9 +27,9 @@ Each component is standalone, minimal, and optimized for both desktop and mobile
 
 You can view the live versions of each project here:
 
-- Graph Page: [View Live](#)
-- Brand Card: [View Live](#)
-- Home Page: [View Live](#)
+- Graph Page: [[View Live](#)](https://tubular-halva-998581.netlify.app/)
+- Brand Card: [[View Live](#)](https://lustrous-tapioca-a933c1.netlify.app/)
+- Home Page: [[View Live](#)](https://gilded-snickerdoodle-b4103f.netlify.app/)
 
 > *(Add your GitHub Pages or Netlify links here if available)*
 
