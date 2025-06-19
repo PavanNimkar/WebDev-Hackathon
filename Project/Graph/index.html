@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Embodied Carbon Emissions</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <aside class="filters">
+        <div class="filter-section">
+          <h3>Filter by</h3>
+          <p>Type</p>
+          <div class="button-group">
+            <button class="btn">
+              <div class="selected circle"></div>
+              Refurbishment
+            </button>
+            <button class="btn">
+              <div class="selected circle"></div>
+              New build
+            </button>
+            <button class="btn selected">All</button>
+          </div>
+          <p>Status</p>
+          <div class="button-group">
+            <button class="btn selected">Complete</button>
+            <button class="btn">Estimate</button>
+          </div>
+        </div>
+
+        <div class="key">
+          Key
+          <p>
+            <span class="dotted-line"></span> 500 kgCO₂e/m² - Embodied Carbon
+            Target 2030
+          </p>
+          <p>
+            <span class="solid-line"></span> 600 kgCO₂e/m² - Embodied Carbon
+            Target 2025
+          </p>
+        </div>
+      </aside>
+
+      <main class="main-content">
+        <div class="title">
+          <h1>
+            <span>EMBODIED</span><br /><span class="highlight">CARBON</span
+            ><br /><span class="highlight">EMISSIONS</span>
+          </h1>
+          <p class="unit">
+            Intensity measured by kgCO<sub>2</sub>e/m<sup>2</sup>
+          </p>
+          <p>Download the data <button class="download-btn">⭳</button></p>
+        </div>
+      </main>
+    </div>
+    <div class="chart">chart</div>
+  </body>
+</html>

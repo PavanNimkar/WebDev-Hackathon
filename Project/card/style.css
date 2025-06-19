@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #1e1e1e;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 2rem;
+}
+
+.card-container {
+  background: #111;
+  border-radius: 16px;
+  padding: 1.5rem;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 0 10px 2px rgba(0, 183, 255, 0.4);
+}
+
+.card-container h2 {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.brand-card {
+  background-color: #1f1f1f;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  transition: background 0.3s ease;
+}
+
+.brand-card:hover {
+  background-color: #2a2a2a;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.right {
+  font-size: 1.2rem;
+  color: white;
+}
+
+.check-circle {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #444;
+  border-radius: 4px;
+  background-color: transparent;
+  position: relative;
+}
+
+.tick {
+  width: 10px;
+  height: 10px;
+  background-color: #00b386;
+  border-radius: 50%;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+}
+
+.purple-selected {
+  background-color: #6c47ff;
+  border: none;
+}
+
+.white-tick {
+  background-color: white;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+}
+
+.green {
+  background-color: #00b386;
+}
+
+.orange {
+  background-color: #f4a300;
+}
+
+.red {
+  background-color: #ff3d3d;
+}
+
+.white {
+  background-color: #fff;
+}
+
+.brand-card p {
+  color: white;
+  font-size: 1rem;
+}
+
+@media (max-width: 480px) {
+  .brand-card {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .left {
+    margin-bottom: 0.5rem;
+  }
+
+  .right {
+    align-self: flex-end;
+  }
+}
