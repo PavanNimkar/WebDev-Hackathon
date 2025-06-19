@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f3f3f3;
+}
+
+.hover-slider {
+  width: 800px;
+  height: 400px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.slider-track {
+  display: flex;
+  width: calc(800px * 4); /* 4 images */
+  transition: transform 1s ease;
+}
+
+.slider-track img {
+  width: 800px;
+  height: 400px;
+  object-fit: cover;
+}
+
+/* Slide effect on hover */
+.hover-slider:hover .slider-track {
+  transform: translateX(-800px); /* Show second image */
+}
+
+/* Optional: Add more effects like multiple steps if needed */
