@@ -30,6 +30,9 @@ You can view the live versions of each project here:
 - Graph Page: [[View Live](#)](https://tubular-halva-998581.netlify.app/)
 - Brand Card: [[View Live](#)](https://lustrous-tapioca-a933c1.netlify.app/)
 - Home Page: [[View Live](#)](https://gilded-snickerdoodle-b4103f.netlify.app/)
+- Slider: https://meek-mousse-484b12.netlify.app/
+- Loader: https://loquacious-sprinkles-a0b503.netlify.app/
+- Customer Section: https://astonishing-faun-dd4b79.netlify.app/
 
 > *(Add your GitHub Pages or Netlify links here if available)*
 
