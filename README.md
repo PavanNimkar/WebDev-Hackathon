@@ -39,7 +39,7 @@ You can view the live versions of each project here:
 
 - **HTML5** – Semantic layout and structure
 - **CSS3** – Styling, layout, responsiveness
-- **(Optional)** Responsive units: Flexbox, Media Queries
+- Responsive units: Flexbox, Media Queries
 
 ---
 
